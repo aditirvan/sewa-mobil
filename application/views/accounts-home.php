@@ -29,7 +29,7 @@
                     $data = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0);
                     foreach ($data as $row) : ?>
 
-                        <tr onclick="window.location='<?php echo base_url('barang/tambah/?id=') ?>'" style='cursor: pointer;'>
+                        <tr onclick="window.location='<?php echo base_url('accounts/tambah/?id=') ?>'" style='cursor: pointer;'>
                             <td>Tiger Nixon</td>
                             <td>System Architect</td>
                             <td>Edinburgh</td>
