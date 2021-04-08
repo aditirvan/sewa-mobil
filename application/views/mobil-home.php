@@ -9,7 +9,7 @@
 
 
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#" class="btn btn-sm btn-primary shadow-sm"><i class="fas fa-plus fa-sm text-white-50"></i> Transaksi Baru</a></li>
+                <li class="list-inline-item"><a href="#" class="btn btn-sm btn-primary shadow-sm"><i class="fas fa-plus fa-sm text-white-50"></i> Tambah</a></li>
             </ul>
 
         </div>
@@ -19,6 +19,7 @@
             <table class="table table-bordered table-hover" id="dataTable" width="100%" cellspacing="0">
                 <thead>
                     <tr>
+                        <th>Pemilik</th>
                         <th>Merk</th>
                         <th>Tipe</th>
                         <th>CC</th>
@@ -29,6 +30,7 @@
                 </thead>
                 <tfoot>
                     <tr>
+                        <th>Pemilik</th>
                         <th>Merk</th>
                         <th>Tipe</th>
                         <th>CC</th>
@@ -43,6 +45,7 @@
                     foreach ($data as $row) : ?>
 
                         <tr onclick="window.location='<?php echo base_url('mobil/tambah/?id=') ?>'" style='cursor: pointer;'>
+                            <td>Tiger Nixon</td>
                             <td>Tiger Nixon</td>
                             <td>System Architect</td>
                             <td>Edinburgh</td>

@@ -1,7 +1,7 @@
 <div class="card shadow mb-4">
     <div class="card-header py-3">
         <div class="d-sm-flex align-items-center justify-content-between">
-            <h6 class="m-0 font-weight-bold text-primary">Data Pelanggan</h6>
+            <h6 class="m-0 font-weight-bold text-primary">Data Pemilik</h6>
             <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-plus fa-sm text-white-50"></i> Tambah</a>
         </div>
     </div>
@@ -10,17 +10,17 @@
             <table class="table table-bordered table-hover" id="dataTable" width="100%" cellspacing="0">
                 <thead>
                     <tr>
-                        <th>Username</th>
                         <th>Nama</th>
                         <th>Nomor HP</th>
+                        <th>Nomor KTP</th>
                         <th>Alamat</th>
                     </tr>
                 </thead>
                 <tfoot>
                     <tr>
-                        <th>Username</th>
                         <th>Nama</th>
                         <th>Nomor HP</th>
+                        <th>Nomor KTP</th>
                         <th>Alamat</th>
                     </tr>
                 </tfoot>

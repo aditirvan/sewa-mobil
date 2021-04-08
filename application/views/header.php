@@ -63,16 +63,25 @@
                     <span>Data Sewa</span>
                 </a>
             </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('pelanggan') ?>">
+                    <i class="fas fa-fw fa-user"></i>
+                    <span>Pelanggan</span>
+                </a>
+            </li>
+
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('mobil') ?>">
                     <i class="fas fa-fw fa-car"></i>
                     <span>Mobil</span>
                 </a>
             </li>
+
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('pelanggan') ?>">
-                    <i class="fas fa-fw fa-user"></i>
-                    <span>Pelanggan</span>
+                <a class="nav-link" href="<?php echo base_url('pemilik') ?>">
+                    <i class="fas fa-fw fa-car"></i>
+                    <span>Pemilik</span>
                 </a>
             </li>
 
